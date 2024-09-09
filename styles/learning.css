@@ -1,0 +1,52 @@
+.learning-container {
+	padding: 48px 16px 33px 16px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.header-learning {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	gap: 18px;
+}
+
+.back-button {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	//styleName: Header 6;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: left;
+}
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 26px;
+}
+
+.active-tab {
+	border-bottom: 2px solid #ff7355;
+
+	//styleName: Paragraph/Bold/03;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	color: #ff7355;
+	width: 109px;
+	padding: 14px 0px 14px 0px;
+}
+
+.questions-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 15px;
+}

@@ -1,0 +1,111 @@
+body {
+	background-color: #f5f5f5;
+	font-family: "SF Pro Display", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.home-container {
+	/* max-width: 390px;
+	margin: 0 auto; */
+	padding-top: 48px;
+	height: calc(
+		100% - 48px - 69px
+	); /* высота контейнера - высота header - высота footer */
+	padding-bottom: 69px;
+}
+
+.header-buttons {
+	display: flex;
+	gap: 8px;
+}
+
+.header-buttons button {
+	background: #ffffff;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	gap: 8px;
+}
+
+.header-buttons button span {
+	//styleName: Paragraph/Bold/03;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+}
+
+h1 {
+	//styleName: Header 6;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: left;
+	color: #2c2d2e;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 16px;
+}
+
+.learning-card {
+	background: #f3f3f3;
+	border-radius: 20px;
+	padding: 24px;
+	margin-bottom: 8px;
+	border: 1px solid #f3f3f3;
+	background: #ffffff;
+}
+
+.learning-card-wrapper {
+	padding: 0 16px;
+}
+
+.learning-link {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: inherit;
+	margin-bottom: 16px;
+}
+
+.learning-link div {
+	margin-left: 10px;
+}
+
+.learning-icon {
+	width: 48px;
+	height: 48px;
+	background: #ffd60a;
+	border-radius: 12px;
+	margin-right: 16px;
+}
+
+.learning-text h2 {
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26px;
+	text-align: left;
+}
+
+.learning-text p {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+
+.learning-arrow {
+	margin-left: auto;
+	font-size: 24px;
+	color: #8e8e93;
+}
